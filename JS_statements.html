@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statements</title>
+</head>
+<body>
+    <p id="addition"></p>
+    <p id="greet"></p>
+    <p id="addition2"></p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="greetv1"></p>
+<p id="greetv2"></p>
+
+
+    <script>
+        let x,y,z;
+        x=5;
+        y=6;
+        z=x+y;
+
+        let a,b,c;
+        a=1;
+        b=2;
+        c=a+b;
+
+        document.getElementById("addition").innerHTML="The value of z is: " +z;
+        document.getElementById("greet").innerHTML="Hello dolly";
+        document.getElementById("addition2").innerHTML="The value of z is: " +c;
+        function myFunction(){
+        document.getElementById("greetv1").innerHTML="Hello dolly";
+        document.getElementById("greetv2").innerHTML="How are you?";
+        }
+    </script>
+</body>
+</html>
